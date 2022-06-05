@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+  height: 100%;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+.Light{
+  background-color: white;
+  color: black;
+
+}
+.dark{
+  background-color: black;
+  color: white;
+}
+
+a{
+  margin-right: 50px;
+  text-decoration: none;
+  color: teal;
+}
+a:hover{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.theme{
+  height: 30px;
+  width: 150px;
+   border:  0px;
+   background-color: white;
+   color: teal;
+   cursor: pointer;
+ margin-left: 50px;
+ 
+}
+.route{
+ display: grid;
+ justify-content: space-evenly;
+ margin-top: 50px;
+
+}
+i{
+  height: 50px;
+  margin-left: 50px;
+}
+.Theme{
+   width: 120px;
+   background-color: white;
+   border: 1px solid grey;
+   margin-left: 900px;
+}
+.footer{
+  height: 200px;
+  width: 90%;
+  display: flex;
+  gap: 20px;
+  border: 1px solid grey;
+  background-color:  #002b32;
+  margin: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.images, .links{
+  width: 50%;
+  margin-top: 40px;
+  margin-top: 80px;
+}
+.images{
+  display: flex;
+  
+}
+.images>img{
+  height: 50px;
+  width: 50px;
+  margin-left: 60px;
+  cursor: pointer;
+}
+.coupon{
+  height: 200px;
+  width: 95%;
+  margin: auto;
+  margin-top: 40px;
+}
+.coupon>img{
+  height: 100%;
+  width: 45%;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  cursor:  pointer;
+}
+.deal{
+  height: 200px;
+  width: 95%;
+  margin: auto;
+  display: flex;
+}
+.deal>div{
+  height: 100%;
+  width: 45%;
+
+}
+.deal img{
+  height: 100%;
+  width: 95%;
+  margin-left: 70px;
+  cursor: pointer;
+  border-radius: 8px;
+  cursor:  pointer;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.container img{
+  height: 300px;
+  width: 300px;
+  border-radius: 8px;
+}
+.container a{
+  color: teal;
+}
+.container a:hover{
+  font-size: 16px;
+}
+
+ .im{
+   height: 400px;
+   width: 400px;
+   border-radius: 8px;
+
+ }
+ .bb{
+   margin-bottom: 20px;
+ }
